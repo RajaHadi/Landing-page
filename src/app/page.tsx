@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-    <nav className="bg-[#080C15] text-[#CD292A]"><h1 className="text-center text-2xl md:text-4xl lg:text-5xl font-extrabold font-sans pt-2">RAJAs BURGER POINT</h1></nav>
+    <nav className="bg-[#080C15] text-[#CD292A]"><h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-extrabold font-sans pt-2">RAJAs BURGER POINT</h1></nav>
       <div className="w-full bg-[#080C15] h-full ">
         <div className="flex flex-col flex-wrap md:flex-row justify-center  p-10 ">
           <div className="pl-10 w-6/12 h-auto flex flex-col justify-center  ">
