@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
               this <p className="text-[#CD292A]"> juicy bite</p>
             </h1>
             <p className="mt-6 font-serif text-white">Freshly Made Juicy Burgers That Will Satisfy Your <br />Hunger Today</p>
-            <button className="rounded-3xl mt-10 bg-[#CD292A] text-white w-40 py-2 p-3">Menu</button>
+            <Link href={"/menu"}><button className="rounded-3xl mt-10 bg-[#CD292A] text-white w-40 py-2 p-3">Menu</button></Link>
 
           </div>
           <div className="md:w-6/12 w-full flex justify-center items-center h-auto">
