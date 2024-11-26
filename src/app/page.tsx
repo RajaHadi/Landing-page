@@ -19,7 +19,7 @@ export default function Home() {
 
           </div>
           <div className="md:w-6/12 w-full flex justify-center items-center h-auto">
-          <Image src={"/burger (1).png"} alt="burger" width={1000} height={1000}  className="w-[800px] h-[600px] "/> </div>
+          <Image src={"/burger (1).png"} alt="burger" width={1000} height={1000}  className="w-[1000px] h-[600px] "/> </div>
         </div>
       </div>
     </>
