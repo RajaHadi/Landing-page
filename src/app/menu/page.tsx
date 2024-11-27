@@ -18,7 +18,7 @@ const Menu = () => {
 
   return (
     < div className='w-full bg-[#080C15]'>
-        <h1 className='text-center text-[#CD292A] text-4xl font-black font-serif md:text-5xl lg:text-5xl   p-4 mb-4 '>Our Burgers</h1>
+        <h1 className='text-center text-[#CD292A] text-4xl font-black font-serif md:text-5xl lg:text-5xl pt-6  p-4 mb-4 '>Our Burgers</h1>
    <div className='flex flex-col justify-center md:flex-row flex-wrap pb-10  md:justify-between lg:justify-around  sm:flex-row gap pt-4  bg-[#080C15] w-full h-full'>
 <Card image={Burger} type="Anda Burger" price="150pkr" />
 <Card image={Chicken} type="Chicken Burger" price="250pkr"/>
