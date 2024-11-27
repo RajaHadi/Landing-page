@@ -6,7 +6,7 @@ export default function Home() {
     <>
      
       <div className="w-full bg-[#080C15] h-full ">
-        <div className="flex flex-col flex-wrap md:flex-row justify-center p-10 ">
+        <div className="flex flex-col flex-wrap md:flex-row justify-center pt-4 p-10 ">
           <div className="pl-10 md:w-6/12 w-full h-auto flex flex-col justify-center  ">
             <h1 className="md:text-5xl text-2xl text-white pb-10 font-extrabold">
               Wake up your taste buds with this{" "}
